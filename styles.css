@@ -16,7 +16,7 @@ font-family: 'Monoton', cursive;
 /* font-family: 'Caveat', cursive;  */
 /* font-family: 'Mochiy Pop P One', sans-serif; */
 /* color:rgb(160, 57, 57); */
-background: -webkit-linear-gradient(#eee, rgb(160, 57, 57));
+background-image: -webkit-linear-gradient(45deg, rgb(228, 222, 222), rgb(160, 57, 57));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
