@@ -11,10 +11,14 @@ body {
 
 h1 {
     text-align: center;
-	/* font-family: 'Mochiy Pop P One', sans-serif; */
+	
 font-family: 'Monoton', cursive; 
 /* font-family: 'Caveat', cursive;  */
-color:rgb(160, 57, 57);
+/* font-family: 'Mochiy Pop P One', sans-serif; */
+/* color:rgb(160, 57, 57); */
+background: -webkit-linear-gradient(#eee, rgb(160, 57, 57));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 .container {
