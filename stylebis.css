@@ -1,0 +1,61 @@
+* {
+    font-family: 'Inconsolata', monospace;
+    color: black;
+
+
+}
+
+body {
+    background-color: #f4f4f4;
+   }
+
+h1 {
+    text-align: center;
+	/* font-family: 'Mochiy Pop P One', sans-serif; */
+font-family: 'Monoton', cursive; 
+/* font-family: 'Caveat', cursive;  */
+color:rgb(160, 57, 57);
+}
+
+.container {
+    width: 320px;
+    background-color: #f4f4f4;
+    margin: 50px auto;
+	
+}
+
+table {
+    width: 100%;
+    border: solid, 50px;
+    border-color: rgb(160, 57, 57);
+	 
+}
+
+.btn_calc {
+    width: 30%;
+}
+
+button {
+    width: 100%;
+    height: 70px;
+    font-size: 24px;
+    background-color: rgb(160, 57, 57);
+    border: none;
+}
+
+#inputLabel {
+    height: 120px;
+    font-size: 40px;
+    vertical-align: bottom;
+    text-align: right;
+    padding-right: 16px;
+    background-color: #ececec;
+	font-family: 'Caveat', cursive;
+		/* font-family: 'Mochiy Pop P One', sans-serif; */
+/* font-family: 'Monoton', cursive;  */
+}
+
+span {
+    display: none;
+	
+}

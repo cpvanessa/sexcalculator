@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="stylebis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@0;1&family=Caveat&family=Lobster&family=Mochiy+Pop+P+One&family=Monoton&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<div class="container">
+    <h1>SEX CALCULATOR</h1>
+    <table border="1" cellspacing="0">
+        <tr>
+            <td colspan="3" id="inputLabel">Abstinence</td>
+        </tr>
+        <tr>
+            <td colspan="2"><button onclick="pushBtn(this);">CE</button></td>
+            <td class="btn_calc"><button onclick="pushBtn(this);">+</button></td>
+        </tr>
+        <tr>
+            <td class="btn_calc"><button onclick="pushBtn(this);">🦪</button></td>
+            <td class="btn_calc"><button onclick="pushBtn(this);">🍌</button></td>
+            <td class="btn_calc"><button onclick="pushBtn(this);">&#127825;</button></td>
+
+        </tr>
+        <tr>
+            <td class="btn_calc"><button onclick="pushBtn(this);">🙇</button></td>
+            <td class="btn_calc"><button onclick="pushBtn(this);">🙇‍♀️</button></td>
+            <td class="btn_calc"><button onclick="pushBtn(this);">😛</button></td>
+
+        </tr>
+        <tr>
+            <td class="btn_calc"><button onclick="pushBtn(this);">👊</button></td>
+            <td class="btn_calc"><button onclick="pushBtn(this);">🖕</button></td>
+            <td class="btn_calc"><button onclick="pushBtn(this);">👋</button></td>
+
+        </tr>
+        <tr>
+            <td colspan="4"><button onclick="pushBtn(this);">=</button></td>
+
+        </tr>
+    </table>
+</div>
+
+<script>
+    let inputLabel = document.getElementById('inputLabel');
+
+    function pushBtn(n) {
+
+        let pushed = n.innerHTML;
+        let banane = "🍌";
+        let mec = "🙇";
+        let fille = "🙇‍♀️";
+        let langue = "😛";
+        let fist = "👊";
+        let peche = "🍑";
+        let main = "👋";
+        let doigt = "🖕";
+        let chatte = "🦪"
+        let mas = "+";
+
+        let operacion = inputLabel.innerHTML;
+
+
+        // Calculate
+        if (operacion == "🍌+🙇" || operacion == mec + mas + banane) {
+            if (pushed == "=") {
+
+                inputLabel.innerHTML = "sexe anal gay";
+            }
+
+
+
+            else {
+                inputLabel.innerHTML = "abstinence";
+
+            }
+        }
+        else if (operacion == banane + mas + fille || operacion == fille + mas + banane) {
+            if (pushed == "=") {
+
+                inputLabel.innerHTML = "sexe anal hetero";
+            }
+
+
+
+            else {
+                inputLabel.innerHTML = "abstinence";
+
+            }
+        }
+        else if (operacion == doigt + mas + peche || operacion == peche + mas + doigt || operacion === peche + mas + banane || operacion == banane + mas + peche) {
+            if (pushed == "=") {
+
+                inputLabel.innerHTML = "sexe anal";
+            }
+            else {
+                inputLabel.innerHTML = "abstinence";
+
+            }
+        }
+        else if (operacion == langue + mas + peche || operacion == peche + mas + langue) {
+            if (pushed == "=") {
+
+                inputLabel.innerHTML = "baiser noir";
+            }
+            else {
+                inputLabel.innerHTML = "abstinence";
+
+            }
+        }
+        else if (operacion == banane + mas + langue || operacion == langue + mas + banane) {
+            if (pushed == "=") {
+
+                inputLabel.innerHTML = "une pipe";
+            }
+            else {
+                inputLabel.innerHTML = "abstinence";
+
+            }
+        }
+        else if (operacion == chatte + mas + langue || operacion == langue + mas + chatte) {
+            if (pushed == "=") {
+
+                inputLabel.innerHTML = "cunnilingus";
+            }
+            else {
+                inputLabel.innerHTML = "abstinence";
+
+            }
+        }
+        else if (operacion == doigt + mas + chatte || operacion == chatte + mas + doigt) {
+            if (pushed == "=") {
+
+                inputLabel.innerHTML = "siririca";
+            }
+
+            else {
+                inputLabel.innerHTML = "abstinence";
+
+            }
+        }
+        else if (operacion == main + mas + banane || operacion == banane + mas + main) {
+            if (pushed == "=") {
+
+                inputLabel.innerHTML = "une branlette";
+            }
+
+            else {
+                inputLabel.innerHTML = "abstinence";
+
+            }
+        }
+
+        else if (operacion == chatte + mas + banane || operacion == banane + mas + chatte) {
+            if (pushed == "=") {
+
+                inputLabel.innerHTML = "penetration vaginal";
+            }
+            else {
+                inputLabel.innerHTML = "abstinence";
+
+            }
+        }
+        else if (operacion == fist + mas + peche || operacion == peche + mas + fist || operacion == chatte + mas + fist||operacion== fist + mas + chatte) {
+            if (pushed == "=") {
+
+                inputLabel.innerHTML = "fisting";
+            }
+            else {
+                inputLabel.innerHTML = "abstinence";
+
+            }
+        }
+
+        else if (pushed == 'CE') {
+            // All Clear
+            inputLabel.innerHTML = 'Abstinence';
+
+        } else {
+            if (inputLabel.innerHTML == 'Abstinence') {
+                inputLabel.innerHTML = pushed;
+
+            } else {
+                inputLabel.innerHTML += pushed;
+            }
+        }
+    }
+</script>
